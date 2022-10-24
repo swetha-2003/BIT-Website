@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:lavender;
+}
+
+h2{
+background-color: purple;
+color:white;
+text-shadow: yellow;
+padding: 10px;
+width:30%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+    <br><br><h2>Achievements:</h2><br><br>
+
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="ac1.jpg" alt="Achievements" style="width:100%">
+      <div class="container">
+        <h2>2021</h2>
+        <p>BIT becomes the first autonomous engineering college in India to attain International Accreditation from IET – UK</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="ach2.jpg" alt="Achievements" style="width:100%">
+      <div class="container">
+        <h2>2020</h2>
+        <p>School of Management Studies ranked 2nd among all the Private Colleges offering MBA in Tamilnadu by Business Today 2020</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="ach3.jpg" alt="Achievements" style="width:100%">
+      <div class="container">
+        <h2>2019</h2>
+        <p>BIT is awarded 'Clean & Smart Campus Award 2019' for the best practices carried out in the institute premises by AICTE.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="ach4.jpg" alt="Achievements" style="width:100%">
+      <div class="container">
+        <h2>2018</h2>
+        <p>Ranked 46th position among Top 165 Best Private Engineering Colleges in India by The India Today Survey</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="ach5.jpg" alt="Achievements" style="width:100%">
+      <div class="container">
+        <h2>2017</h2>
+        <p>Ranked 7th position among Top 10 Promising Engineering Colleges in India by The India Today Survey.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="ac1.jpg" alt="Achievements" style="width:100%">
+      <div class="container">
+        <h2>2016</h2>
+        <p>Certificate of Accreditation was granted in recognition for being a National Resource Centre of National Cyber Security Program (NCSP) for the academic year,2016-17</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
